@@ -1,0 +1,274 @@
+
+h1{
+
+  text-align:center;
+  font-family:Arial;
+  font-size: 70px;
+  margin-right:20%;
+  margin-left:20%;
+  color: #009999;
+  /*background: black;*/
+  padding:10px;
+}
+h2{ 
+  margin-right: 20%;
+  margin-left:20%;
+  align-content: center;
+  text-align: center;
+  font-size: 17px;
+  font-family:Verdana;
+  font-style: lighter;
+
+}
+
+h3{
+ text-align:center;
+  font-family:Arial;
+  font-size: 15px;
+  font-style: lighter;
+}
+h4{
+ text-align:center;
+  font-family:Arial;
+  font-size: 15px;
+  font-style: lighter;
+  margin-right:20%;
+  margin-left:20%;
+}
+
+.chart{
+  text-align:center;
+}
+
+.slider a, .slider .panel{
+  padding: 5px;
+    text-align: center;
+    background-color: #80ffbf;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+    text-decoration-color:#000000;
+    text-decoration: none;
+}
+
+.slider a{
+  display: block;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-decoration: none;
+  text-decoration-color:#000000;
+}
+
+.slider .panel{
+  padding: 50px;
+  display: none;
+  text-decoration: none;
+  text-decoration-color:#000000;
+}
+
+#schedule_2 a{
+  background-color: #99ffcc;
+  text-decoration: none;
+  text-decoration-color:#000000;
+}
+
+#schedule_3 a{
+  background-color: #b3ffd9;
+  text-decoration: none;
+  text-decoration-color:#000000;
+}
+
+#schedule_4 a{
+  background-color: #ccffe6;
+  text-decoration: none;
+  text-decoration-color:#000000;
+}
+
+#schedule_5 a{
+  background-color: #e6fff2;
+  text-decoration: none;
+  text-decoration-color:#000000;
+}
+
+#p2{
+  background-color: #99ffcc;
+}
+#p3{
+  background-color: #b3ffd9;
+}
+#p4{
+  background-color:#ccffe6;
+}
+#p5{
+  background-color: #e6fff2;
+}
+
+p{
+  margin-right: 20%;
+  margin-left:20%;
+  align-content: center;
+  text-align: justify;
+  font-size: 17px;
+  font-family:Verdana;
+  font-style: lighter;
+  line-height:2;
+}
+
+.caption{
+   margin-right: 20%;
+  margin-left:20%;
+  align-content: center;
+  text-align: justify;
+  font-size: 10px;
+  font-family:Arial;
+  font-color:#4d4d33;
+}
+/*#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #ff3300;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+#panel2, #flip2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #ff6600;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel2 {
+    padding: 50px;
+    display: none;
+}
+
+#panel3, #flip3 {
+    padding: 5px;
+    text-align: center;
+    background-color: #ffff4d;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel3 {
+    padding: 50px;
+    display: none;
+}
+
+
+#panel4, #flip4 {
+    padding: 5px;
+    text-align: center;
+    background-color: #ccff33;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel4 {
+    padding: 50px;
+    display: none;
+}
+
+
+#panel5, #flip5 {
+    padding: 5px;
+    text-align: center;
+    background-color:  #2eb82e;
+    border: solid 1px #c3c3c3;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#panel5 {
+    padding: 50px;
+    display: none;
+}*/
+.hotimage {
+  width: auto;
+  height: 15%;
+  align-content: center;
+  padding:5%;
+}
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  align-content: center;
+  border: solid;
+}
+
+.hide_btn {
+  display: none;
+}
+
+.hotspot {
+  opacity: .6;
+  font-family: Arial;
+  cursor: pointer;
+  text-align: center;
+}
+
+.info_slides {
+  position: absolute;
+  align-content: center;
+  height: 47%;
+  width: 60%;
+  margin-left: 20%;
+  background: #99ffcc;
+  display: none;
+  z-index:2;
+  text-align:center;
+  font-family: Arial;
+}
+
+.hide_btn {
+  display: none;
+}
+
+.info_slides_show{
+ display: block;
+
+}
+
+
+.btn_close_show{
+  display:block;
+}
+
+.text_style{ 
+  margin-right: 20%;
+  margin-left:20%;
+  text-align: center;
+  font-size: 25px;
+  font-family:Arial;
+}
+
+
+@media (min-width: 768px) (max-width: 1024px) { h1{font-size:50px} 
+p {font-size: 16px;
+  max-width: 250px}
+.hotimage {
+  height: 50%;
+}
+  }}
+
+@media (min-width: 1025px) and {h1{font-size: 100px}
+p {font-size: 24px;
+max-width:500px;}
+.hotimage{
+  height:75%;
+  width:75%;
+}
+}

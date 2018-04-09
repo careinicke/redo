@@ -1,0 +1,133 @@
+<html>
+
+
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="drug.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="drug.js"></script>
+    <title>Drug Scheduling</title>
+  </head>
+
+  <body>
+    <h1>Drug Scheduling is not a Ranking of Criminality</h1>
+    <h2>Many Drugs That Can Get You Arrested Are Not Included on the DEA Drug Schedule</h2>
+    <h2>By Carmen Reinicke</h2>
+
+<p> The Drug Enforcement Administration classifies drugs, substances, and chemicals used to make drugs into five categories (schedules) as outlined by the Controlled Substance Act. <p>
+
+ <p> The schedule ranks drugs by their medical use and their potential for addiction and abuse. Although the schedule provides helpful guidelines for doctors and law enforcement, it is also understood by many. Even though the schedule was developed by the DEA, the criminality of drugs is not included in the schedule - and not all drugs that can be criminalized are included in the schedule either.  <p> 
+
+<h3> Drug Schedules</h3>
+
+<div id="schedule_1" class="slider">
+  <a>Schedule 1</a>
+  <div class="panel">
+    Schedule I drugs, substances, or chemicals are defined as drugs with no currently accepted medical use and a high potential for abuse. Some examples of Schedule I drugs are:
+
+heroin,LSD, marijuana, ecstasy, methaqualone, and peyote
+  </div>
+</div>
+
+<div id="schedule_2" class="slider">
+  <a>Schedule 2</a>
+  <div id="p2" class="panel">
+    Schedule II drugs, substances, or chemicals are defined as drugs with a high potential for abuse, with use potentially leading to severe psychological or physical dependence. These drugs are also considered dangerous. Some examples of Schedule II drugs are:
+
+Combination products with less than 15 milligrams of hydrocodone per dosage unit (Vicodin), cocaine, methamphetamine, methadone, hydromorphone (Dilaudid), meperidine (Demerol), oxycodone (OxyContin), fentanyl, Dexedrine, Adderall, and Ritalin
+  </div>
+</div>
+
+<div id="schedule_3" class="slider">
+  <a>Schedule 3</a>
+  <div id= "p3" class="panel">
+    Schedule III drugs, substances, or chemicals are defined as drugs with a moderate to low potential for physical and psychological dependence. Schedule III drugs abuse potential is less than Schedule I and Schedule II drugs but more than Schedule IV. Some examples of Schedule III drugs are:
+
+Products containing less than 90 milligrams of codeine per dosage unit (Tylenol with codeine), ketamine, anabolic steroids, testosterone
+  </div>
+</div>
+
+<div id="schedule_4" class="slider">
+  <a>Schedule 4</a>
+  <div id = "p4" class="panel">
+    Schedule IV drugs, substances, or chemicals are defined as drugs with a low potential for abuse and low risk of dependence. Some examples of Schedule IV drugs are:
+
+Xanax, Soma, Darvon, Darvocet, Valium, Ativan, Talwin, Ambien, Tramadol
+  </div>
+</div>
+
+<div id="schedule_5" class="slider">
+  <a>Schedule 5</a>
+  <div id="p5" class="panel">
+  Schedule V drugs, substances, or chemicals are defined as drugs with lower potential for abuse than Schedule IV and consist of preparations containing limited quantities of certain narcotics. Schedule V drugs are generally used for antidiarrheal, antitussive, and analgesic purposes. Some examples of Schedule V drugs are:
+
+cough preparations with less than 200 milligrams of codeine or per 100 milliliters (Robitussin AC), Lomotil, Motofen, Lyrica, Parepectolin
+  </div>
+</div>
+<p class="caption"> Information from the <a href="https://www.dea.gov/druginfo/ds.shtml" target="_blank"> DEA</a></p>
+
+<!-- <div id="flip2"> Schedule 2</div>
+<div id="panel2"> Drugs with a high potential for abuse. Can lead to severe psychological or physical dependence</div>
+<div id="flip3"> Schedule 3</div>
+<div id="panel3"> Drugs with moderate to low potential for abuse, physical and psychological dependence.</div>
+<div id="flip4"> Schedule 4</div>
+<div id="panel4"> Drugs with low potential for abuse or dependence.</div>
+<div id="flip5"> Schedule 5</div>
+<div id="panel5"> Drugs with lower potential for abuse than schedule 4.</div> -->
+
+  <p> "It's a good, safe effort," said Jonathan Caulkins, a drug policy researcher and professor at Carnegie Mellon. "It is lampooned by people who want to make policies foolish and there's an intentional misunderstanding of schedule 1." <p>
+
+<p>The issue with drug scheduling is that it is often misinterpreted as a rank of drugs from worst to best, one being the worst, to five being the best. But because accepted medical use is part of the criteria used to assess drugs, some substances that provide little to no harm are ranked in schedule one.   
+ <p>
+
+  <p> "The international treaties recognize no benefit of a psychoactive drug other than medicine," Caulkins said, "So if there's a drug out there that provides fun, joy, with mild addictive liability, it is banned."  <p>
+
+<p>Marijuana is an example of a drug that provides fun and enjoyment with low potential for abuse. But because marijuana is not recognized as having any proven medicinal benefits, it is grouped in the same schedule as heroin and cocaine. </p>
+
+<p> On the other hand, drugs that can be extremely dangerous but have medical use are ranked schedule 2, like methamphetamine, which can be used to treat attention defecit disorders and obesity, and fentanyl, which is used as pain medication, and for anesthesia. </p>
+
+<p>The drug schedule does include guidelines for doctors using these drugs, but does not include guidelines for sentancing for law enforcement officers. </p>
+
+<h4> Sentencing is different for drugs at every schedule</h4>
+
+      <div id="slide" class="info_slides">
+         <div id="xButton" class="btn_close">
+        <p>x</p>
+      </div>
+        <div id="popIn"></div>
+      </div>
+
+<table class="table">
+
+  <tr>
+    <th> <img src="image/pill.png" class="hotimage" id="spotA"/> </th>
+    <th> <img src="image/needle.png" class="hotimage"/> </th> 
+    <th> <img src="image/mj.png" class="hotimage"/></th>
+  </tr>
+  <tr>
+    <th> <button class="hotspot" id="a">Ritalin</button> </th>
+    <th> <button class="hotspot" id="b">Heroin</button> </th>
+    <th> <button class="hotspot" id="c">Marijuana</button> </th>
+  </tr>
+  <tr>
+    <th> <img src="image/pill2.png" class="hotimage"/> </th>
+    <th> <img src="image/coke.png" class="hotimage"/> </th> 
+    <th> <img src="image/cough.png" class="hotimage"/></th>
+  </tr>
+  <tr>
+    <th> <button class="hotspot" id="d">Oxycontin</button> </th>
+    <th> <button class="hotspot" id="e">Cocaine</button> </th>
+    <th> <button class="hotspot" id="f">Cough syrup</button> </th>
+  </tr>
+
+  </table>
+  <p class="caption"> All icon images from <a href="https://thenounproject.com/" target="_blank"> noun project</a></p>
+  </body>
+
+<p>Caulkins added that the DEA is implementing the law exactly correctly in denying the claims that marijuana should be considered a pharmaceutical. But he also pointed out that most marijuana use is recreationally similar to alcohol use, a substance that also has no medical benefit but is not on the drug schedule because it is legal to use - up to a point. </p>
+
+<p>While alcohol is a legal drug, and is not listed on the DEA's drug schedule, it can still be criminalized. </p>
+
+<p>"If we balanced harm, liability against all the good fun people could have, we'd have a very different process," Caulkins said. </p>
+</html>
